@@ -1,4 +1,4 @@
-import sys
+import sys  # '시간초과' 때문에 추가
 input = sys.stdin.readline
 n, m = map(int, input().split())  # n:나무의 개수 m:가져가려고하는 나무 길이
 tree = list(map(int, input().split()))
