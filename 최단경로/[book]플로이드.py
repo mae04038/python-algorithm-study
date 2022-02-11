@@ -21,7 +21,7 @@ for _ in range(bus):
 for k in range(1, city+1):
     for a in range(1, city+1):
         for b in range(1, city+1):
-            graph[a][b] = min(graph[a][b], graph[a][k]+[k][b])
+            graph[a][b] = min(graph[a][b], graph[a][k]+graph[k][b])
 
 for a in range(1, city+1):
     for b in range(1, city+1):
