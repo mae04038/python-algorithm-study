@@ -1,6 +1,5 @@
 from turtle import distance
 
-
 INF = int(1e9)  # 무한
 n, m = map(int, input().split())  # n:회사 개수 m:간선 개수
 
