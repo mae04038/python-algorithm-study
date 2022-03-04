@@ -1,5 +1,8 @@
 from bisect import bisect_left, bisect_right
 
+words = ["frodo", "front", "frost", "frozen", "frame", "kakao"]
+queries = ["fro??", "????o", "fr???", "fro???", "pro?"]
+
 
 def count_by_range(a, left_value, right_value):
     right_index = bisect_right(a, right_value)
