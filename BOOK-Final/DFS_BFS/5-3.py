@@ -12,7 +12,7 @@ dy = [0, 0, -1, 1] # 가로
 
 
 def dfs(x, y):
-    ice[x][y] = 1 # 칸막이로 바꿔주기
+    ice[x][y] = '1' # 칸막이로 바꿔주기
     for i in range(4):
         nx, ny = x + dx[i], y + dy[i]
         if nx < 0 or nx >= N or ny < 0 or ny >= M:
